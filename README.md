@@ -16,7 +16,7 @@
     * In another terminal, cd into the client folder and run "npm run serve", this will start our Vue.js on another server
 
 * Mysql data can be seen in the init_db.js and init_tables.js files. Please let me know if there are any questions, thank you
-* Improvements: this app is still rought around the edges but here are some things I would do if given the time
+* Improvements: this app is still rough around the edges so here are some things I would do if given the time
     * Create environment variables so that it will be easier to launch to production (ex. make port numbers env variables)
     * Add some unit testing and to make sure functions account for edge cases - I would add more error handling as well (try catch statements)
     * Improve the UI, make everything look neater and test for bugs
