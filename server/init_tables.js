@@ -1,6 +1,7 @@
+// This file connects to our database. It then creates tables and sample data
+
 const mysql = require('mysql');
 
-// This file creates our database, tables, and sample data
 let db = mysql.createConnection({
     host:'localhost',
     user:'root',

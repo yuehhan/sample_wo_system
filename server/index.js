@@ -44,7 +44,7 @@ app.get("/", function(req, res) {
     });
 })
 
-// Get all keys and vehicles
+// Get all keys
 app.get("/findKeys", function(req, res) {
     keys_sql = "SELECT * FROM keys_table";
     db.query(keys_sql, (err, data) =>{
